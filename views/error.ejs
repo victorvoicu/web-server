@@ -14,14 +14,14 @@
 </head>
 
 <body>
-  <%- include('../public/partials/header.ejs') %> 
+  <%-include('../partials/header.ejs')%> 
   <p>  ceva nu a mers: error  </p>
   <p id="p1"></p>
   <p id="p2"></p>
   <p id="p3"></p>
   <a href="/weather">go to weather page</a>
 
-  <%- include('../public/partials/footer.ejs') %> 
+  <%- include('../partials/footer.ejs') %> 
   <script>
     let obj1 = '<%-err1%>'
     let obj2 = '<%-err2%>'
