@@ -14,3 +14,4 @@ nume oras si sa returneze info vreme (jqajax din aplicatia anterioara)
 
  pentru eventul de submit folosesc eventul pt form, nu pt buton,
  si atunci nu mai are comportament de submit html
+ 
