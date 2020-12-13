@@ -1,0 +1,74 @@
+body {
+  padding: 50px 100px;
+  font: 14px ubuntu,"Lucida Grande", Helvetica, Arial, sans-serif;
+  
+  min-height: 100vh;
+  box-sizing: border-box;
+    text-align: center;
+
+   
+  display: flex;
+  flex-direction: column;
+  /*! align-items: center; */
+  /*! justify-items: center; */
+  align-content: center;
+  margin: auto;
+}
+
+a {
+  color: #00B7FF;
+}
+#weather{
+  font-size: 64px;
+    
+}
+footer{
+  color: gray;
+  margin-top: 10px;
+  border-top: 1px solid grey
+    
+}
+
+#image{
+  
+  width: max-content;
+  align-self: center;
+}
+#divparagraspuns{
+  
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#formweather{
+  
+  flex-grow: 1;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 55px;
+}
+#paragraspuns{
+  
+  /*! flex-grow: 1; */
+}
+#weatherdiv{
+  
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#city,#submitCity{
+  width: min-content;
+}
+#divhelp{
+  flex-grow: 1;
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

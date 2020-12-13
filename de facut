@@ -1,0 +1,16 @@
+de facut un form pe pagina de weather in care sa se introduca
+nume oras si sa returneze info vreme (jqajax din aplicatia anterioara)
+ 
+ merge
+
+ idee: daca vreau sa nu se vada info trimise la render
+ pot sa fac pe o ruta sa randeze ceva, fara alt info trimis din node
+ dupa care la document.ready sa trimit din script un jqajax care sa 
+ primeasca prin res.json niste info de la server, si atunci nu mai apare nimic in script
+ (asta doar daca raman pe aceeasi pagina ejs generata initial)
+ 
+ altfel, fac render cu ejs si trimit datele prin render, si se vor vedea in elements
+ in browser (dar nu am alta varianta)
+
+ pentru eventul de submit folosesc eventul pt form, nu pt buton,
+ si atunci nu mai are comportament de submit html
